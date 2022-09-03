@@ -7,6 +7,9 @@ INSTRUCTION
     convierte un string (cadena de caracteres) en entero
 
 CONDICIONES
+ - if : SI
+ - else : SINO 
+ - else if : SINO SI
  - igual a == 
  - menor que <
  - menor o igual que <=
