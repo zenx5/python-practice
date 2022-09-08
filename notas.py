@@ -6,6 +6,9 @@
 
 notas = int( input("Ingrese Nota: ") )
 
-0 -> nota -> 9  ==> Reprobados
-10 -> nota -> 15  ==> Aprobados
-16 -> nota -> 20  ==> Eximidos
+if notas < 9:
+    print("Reprobado")
+elif notas > 10 and notas < 15 :
+    print("Aprobado") 
+elif notas > 16 and notas < 20:
+    print("Eximido")
