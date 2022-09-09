@@ -4,4 +4,16 @@
 # Entre 350€ y 600€	    =>          30%
 # Más de 600€	        =>          45%
 
-input( 'Cuál es el sueldo? ')
+sueldo = input( 'Cuál es el sueldo? ')
+
+
+if sueldo<100
+   print(Su impuesto es de 5%)
+elif sueldo>=100 and <=200
+   print(Su impuesto es de 15%)
+elif sueldo>=200 and <=350
+   print(Su impuesto es de 20%)
+elif sueldo>=350 and <=600
+   print(Su impuesto es de 30%)
+elif sueldo>=600
+   print(Su impuesto es de 45%)
