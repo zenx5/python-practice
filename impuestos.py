@@ -13,14 +13,21 @@
 sueldo = int( input( 'Cuál es el sueldo? ') )
 
 
+
 if sueldo<100:
    print('Su impuesto es de 5%')
+   impuesto = 5*sueldo/100
 elif sueldo>=100 and sueldo<=200:
    print('Su impuesto es de 15%')
+   impuesto = 15*sueldo/100
 elif sueldo>=200 and sueldo<=350:
    print('Su impuesto es de 20%')
+   impuesto = 20*sueldo/100
 elif sueldo>=350 and sueldo<=600:
    print('Su impuesto es de 30%')
+   impuesto = 30*sueldo/100
 elif sueldo>=600:
    print('Su impuesto es de 45%')
+   impuesto = 45*sueldo/100
 
+print('impuesto a pagar: %i €' % impuesto)
